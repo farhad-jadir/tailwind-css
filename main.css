@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+   
+    .link{
+        @apply text-[#072125] text-sm md:text-lg dark:text-white;
+    }
+    .letter{
+        @apply text-[12px] md:text-[16px] text-[#2D3142];
+    }
+    .num{
+        @apply text-[#00FF84] text-lg md:text-2xl font-semibold;
+    }
+    .jon{
+        @apply border-2 border-[#F9CCC7] rounded-3xl pl-2 pr-2 pt-0 pb-1 text-[10px] md:text-[16px] text-[#2D3142] cursor-pointer hover:bg-slate-200;
+    }
+    .job{
+        @apply flex items-center gap-2 md:ml-[40px];
+    }
+    .caption{
+        @apply border rounded-full pr-2 pl-2 md:pr-8 md:pl-8 md:pt-2 md:pb-2 text-[10px] md:text-[16px] dark:text-white;
+    }
+    .mon{
+        @apply pt-4 text-[#20484F] text-[12px] md:text-[16px] md:pb-[100px] pb-8 dark:text-white;
+    }
+}
